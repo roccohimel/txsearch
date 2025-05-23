@@ -29,3 +29,19 @@ Once entered, output should look simular too:
 Python 3.x.x
 ```
 Step 2: Install TxSearch Install Script. This is the easiest way of installing FireFox and Brave. You will need GitHub Cloning.
+First, **Install git.** Run:
+```
+sudo apt-get install git
+```
+The "git" command will allow you to clone repositories from GitHub. Next install "wget", which will allow you to install single scripts from GitHub. Since "git clone" can only clone repositories, we need to get raw files with "wget". Run:
+```
+sudo apt-get install wget
+```
+Finally, to **get the install script,** run:
+```
+wget https://raw.githubusercontent.com/roccohimel/txsearch/refs/heads/main/txsearch-inst.py
+```
+**This will:**
+- Install FireFox ESR
+- Install Brave
+- Install the TxSearch script
