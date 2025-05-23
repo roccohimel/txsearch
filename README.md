@@ -4,6 +4,7 @@ Free, text based browser launcher. Made for Debian versions supporting Python3 a
 Install page for TxSearch on Debian. Must have:
 - Debian Advanced Package Tool (apt)
 - Python 3 (python3)
+- GitHub Cloning (git)
 - Modzilla Firefox (firefox)
 Additionally, but recomended:
 - Brave Browser (brave-browser)
@@ -27,4 +28,4 @@ Once entered, output should look simular too:
 ```
 Python 3.x.x
 ```
-Step 2: Install TxSearch Install Script
+Step 2: Install TxSearch Install Script. This is the easiest way of installing FireFox and Brave. You will need GitHub Cloning.
