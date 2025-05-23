@@ -1,7 +1,0 @@
-# Installation
-Install page for TxSearch on Debian. Must have:
-- Debian Advanced Package Tool (apt)
-- Python 3 (python3)
-- Modzilla Firefox (firefox)
-Additionally, but recomended:
-- Brave Browser (brave-browser)
