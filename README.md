@@ -19,3 +19,12 @@ Next is the command to install python.
 sudo apt-get install python3
 ```
 **TxSearch Installation Script**
+Step 1: Make sure you have Python installed. Run:
+```
+python3 --version
+```
+Once entered, output should look simular too:
+```
+Python 3.x.x
+```
+Step 2: Install TxSearch Install Script
