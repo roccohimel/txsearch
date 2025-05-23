@@ -16,7 +16,7 @@ subprocess.run("clear", shell=True)
 subprocess.run("sudo apt-get install brave-browser", shell=True )
 print("Done!")
 subprocess.run("sudo apt-get install firefox-esr", shell=True)
-subprocess.run("git clone https://github.com/roccohimel/txsearch.git", shell=True)
+subprocess.run("wget ", shell=True)
 print("You can close this now. (^C)")
 
 
