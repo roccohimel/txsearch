@@ -45,3 +45,54 @@ wget https://raw.githubusercontent.com/roccohimel/txsearch/refs/heads/main/txsea
 - Install FireFox ESR
 - Install Brave
 - Install the TxSearch script
+**Step 3:** Run the Install script. To run the script, run:
+  ```
+  python3 txsearch-inst.py
+  ```
+  # Usage
+  After you have installed TxSearch with the Install Script, you will need to know how to use it. To open TxSearch, run:
+  ```
+  python3 txsearch.py
+  ```
+  You will be granted with this prompt:
+  ```
+  1: lo: <LOOPBACK,UP,LOWER_UP> mtu xxxxxx qdisc noqueue state UNKNOWN group default qlen xxxx
+    link/loopback xx:xx:xx:xx:xx:xx brd xx.xx:xx:xx:xx:xx
+    inet xxx.x.x.x/x scope host lo
+       valid_lft forever preferred_lft forever
+    inetx ::x/xxx scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+  4: wlp3sx: <BROADCAST,MULTICAST> mtu xxxx qdisc noop state DOWN group default qlen xxxx
+    link/ether xx:xx:xx:xx:xx:xx brd xx:xx:xx:xx:xx:xx permaddr xx:xx:xx:xx:xx:xx
+  5: xxxxxxxxxxxxxxx: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu xxxx qdisc fq_codel state UP group default qlen xxxx
+    link/ether xx:xx:xx:xx:xx:xx brd xx:xx:xx:xx:xx:xx
+    inet xxx.xx.xx.x/xx brd xxx.xx.xx.xx scope global dynamic noprefixroute xxxxxxxxxxxxxxx
+       valid_lft xxxxsec preferred_lft xxxxsec
+    inetx xxxx:xxx:xxxx:xxxx:xxxx:xxxx:xxx:xxxx/xx scope global noprefixroute 
+       valid_lft forever preferred_lft forever
+    inetx xxxx::xxxx:xxxx:xxxxxxxxx/xx scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+  ```
+  These characters are info about your network
+  "Are these details correct?(y/n)" Enter "n" if not. Enter "y" if you do not know or you are sure.
+  You will next be granted with this:
+  ```
+  Select a search engine:
+  Google(firefox)
+  Google(firefox--privite-window)
+  Brave(brave-browser)
+  Brave(brave-browser --incognito)
+  Tor(brave-browser --tor)
+
+  NOTE: Must have installed selected browser!
+
+  NUMBER:
+  ```
+  Enter the number (line) of the search engine you want.
+  Next enter your URL from the next input. And you are done.
+  # Uninstallation
+  Run the following command:
+  ```
+  sudo rm -rf /home/user/txsearch.py && sudo rm -rf /home/user/txsearch-inst.py
+  ```
+  Of course, replace the directories with YOUR path.
